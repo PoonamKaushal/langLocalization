@@ -1,0 +1,6 @@
+{
+    "greeting": "'Bienvenue sur lapplication de langues.",
+    "description": {
+      "line1": "Vous êtes dans lapplication <1>{{lang}}<1/>."
+    }
+  }
