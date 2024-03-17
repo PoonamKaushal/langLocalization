@@ -41,8 +41,8 @@ const LanguageDetector = ({ setSetSelectedLang}) => {
       {languages.map(({ code, lang }) => (
         <>
           <button 
-         className="text-red-950"
-          // className={code===i18n.language?'!bg-blue-500':'bg-black'}
+        
+          className={code===i18n.language?'!bg-blue-500 text-white border border-blue-600 rounded-sm':'bg-white border border-black rounded-sm'}
            key={code} 
            onClick={()=>changeLanguage(code,lang)}>{lang}</button>
         </>
